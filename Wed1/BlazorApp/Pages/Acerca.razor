@@ -1,0 +1,18 @@
+@page "/acerca"
+
+<h1>Acerca de</h1>
+
+<div class="perfil">
+    <h2>@nombre @apellido</h2>
+    <p><strong>Teléfono:</strong> @telefono</p>
+    <p><strong>Correo:</strong> @correo</p>
+    <p><strong>Experiencia en Programación:</strong> @experiencia</p>
+</div>
+
+@code {
+    private string nombre = "Elys";
+    private string apellido = "Batista";
+    private string telefono = "829-410-6070";
+    private string correo = "elyscamilabatista@gmail.com";
+    private string experiencia = "Html,css y javascript basico ";
+}
